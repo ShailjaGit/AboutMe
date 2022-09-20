@@ -72,20 +72,21 @@ body{
 	html{
 		font-size:4rem;
 	}
-/*	.intro{
-    margin-left: 0.1rem;
+	.name{
+	margin-left:3.5rem
+}
+.intro{
     margin-top: -1rem;
 	}
+	.pic{
+	 margin-left: 4rem;
+}	
 	.links{
     margin-left: 4rem;
-	margin-top:6rem;
+	margin-top:8rem;
 }
-.pic{
-	 margin-left: 4rem;
-}
-.name{
-	margin-left:3rem
-}*/
+
+
 }
 @media(max-width:375px){
 	html{
@@ -100,6 +101,20 @@ body{
 	html{
 		font-size:3.5rem;
 	}
+		.name{
+	margin-left:1rem;
+}
+.intro{
+    margin-top: -1rem;
+	}
+	.pic{
+	 margin-left: 2rem;
+}	
+	.links{
+    margin-left: 1.5rem;
+	margin-top:11rem;
+}
+
 }
 @media(max-width:390px){
 	html{
