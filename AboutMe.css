@@ -1,0 +1,120 @@
+html{
+	font-size:62.5px;
+}
+body{
+ background-color:#000;
+}
+.pic{
+	height:30%;
+	width:20%;
+	border-radius:50%;
+    margin-left: 0.6rem;
+    margin-top:2rem;
+    border-style: ridge;
+	border-color: white;
+}
+.intro{
+	position:absolute;
+    margin-left: 5.5rem;
+    margin-top: -6rem;
+	font-size:2.0rem;
+}
+.name{
+	font-style:bold;
+	font-weight:3rem;
+	color:white;
+	font-size: 0.6rem;
+	margin-left: 0.001rem;
+}
+.HW{
+	text-align: left;
+	color:white;
+    display: block;
+	font: small-caption;
+	font-size:0.3rem;
+}
+
+.links{
+	margin-top: 2rem;
+    margin-left: 16.5rem;
+}
+
+.SM{
+	border-radius:50%;
+	cursor:pointer;
+}
+@media(max-width:998px){
+
+	html{
+		font-size:5rem;
+	}
+	.intro{
+    margin-left: 0.1rem;
+    margin-top: -1rem;
+
+}
+.links{
+	margin-top: 10rem;
+    margin-left: 2rem;
+}
+.pic{
+	 margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.name{
+	margin-left:1.5rem;
+}
+}
+
+
+@media(max-width:768px){
+
+	html{
+		font-size:4rem;
+	}
+/*	.intro{
+    margin-left: 0.1rem;
+    margin-top: -1rem;
+	}
+	.links{
+    margin-left: 4rem;
+	margin-top:6rem;
+}
+.pic{
+	 margin-left: 4rem;
+}
+.name{
+	margin-left:3rem
+}*/
+}
+@media(max-width:375px){
+	html{
+		font-size:2rem;
+	}
+	.links{
+	margin-top: 12rem;
+	margin-left:1.5rem
+}
+}
+@media(max-width:414px){
+	html{
+		font-size:3.5rem;
+	}
+}
+@media(max-width:390px){
+	html{
+		font-size:3.8rem;
+	}
+}
+@media(max-width:280px){
+html{
+	font-size:2.6rem;
+}
+.name{
+	font-size:0.3em;
+	margin-left:1.5rem;
+}
+.pic{
+	margin-left:2.5rem;
+}
+}
